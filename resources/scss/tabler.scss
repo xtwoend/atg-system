@@ -1,0 +1,28 @@
+@import "core";
+ 
+@import "tabler-themes";
+
+:root {
+    --easy-table-border: var(--tblr-card-border-width) solid var(--tblr-card-border-color) !important;	
+    --easy-table-row-border: var(--tblr-card-border-width) solid var(--tblr-card-border-color) !important;	
+    --easy-table-header-font-color: var(--tblr-secondary) !important;
+    --easy-table-header-background-color: var(--tblr-bg-surface-tertiary) !important;
+    --easy-table-body-row-font-color: inherit !important;
+    --easy-table-body-row-background-color: var(--tblr-bg-surface-tertiary) !important;
+    --easy-table-body-row-hover-font-color :  inherit !important;
+    --easy-table-body-row-hover-background-color: color-mix(in srgb, var(--tblr-primary-lt) calc(var(--tblr-bg-opacity, 1) * 100%), transparent) !important;
+    --easy-table-body-even-row-font-color: inherit !important;
+    --easy-table-body-even-row-background-color: var(--tblr-bg-surface-tertiary) !important;
+    --easy-table-footer-background-color: var(--tblr-bg-surface-tertiary) !important;
+    --easy-table-footer-font-color: inherit !important;
+    --easy-table-message-font-color: inherit !important;
+    --easy-table-loading-mask-background-color: color-mix(in srgb, var(--tblr-primary-lt) calc(var(--tblr-bg-opacity, 1) * 100%), transparent) !important;
+    // --easy-table-scrollbar-track-color: #f5f5f5;
+    // --easy-table-scrollbar-color: #e0e0e0;
+    --easy-table-buttons-pagination-border: var(--tblr-card-border-width) solid var(--tblr-card-border-color) !important;	
+}
+
+.buttons-pagination .item.button.active {
+    background-color: color-mix(in srgb, var(--tblr-primary-lt) calc(var(--tblr-bg-opacity, 1) * 100%), transparent) !important;
+    color: var(--tblr-secondary) !important;
+}

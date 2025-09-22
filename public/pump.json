@@ -1,0 +1,13 @@
+{
+    "_terminalTime": "2025-02-20 04:51:54.079",
+    "_groupName": "pumpinfo",
+    "pump_motor1": "0",
+    "pump_motor2": "0",
+    "sp_ost1_kg": "0.00",
+    "sp_ost1_mm": "240.00",
+    "pv_ost1_mm": "4034.88",
+    "sp_ost2_kg": "0.00",
+    "sp_ost2_mm": "386.00",
+    "pv_ost2_mm": "5331.44",
+    "selectswitch_ost1_or_osst2": "1"
+}
