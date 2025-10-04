@@ -20,6 +20,12 @@ Schedule::call(function () {
     DB::table('devices')->where('last_connected', '<=', Carbon::now()->subMinutes(5)->format('Y-m-d H:i:s'))->update(['status' => 0]);
 })->everyMinute();
 
+if(env('APP_DEMO', false)) {
+    Schedule::call(function () {
+        Artisan::call('app:fake-data');
+    })->everyFiveSeconds();
+}
+
 // if(Schema::hasTable('schedulers')) {
 
 //     $schedules = Scheduler::active()->get();
