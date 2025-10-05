@@ -104,6 +104,7 @@ export default {
         initListen() {
             let that = this
             window.Echo.channel(this.channel).listen(this.listen, (e) => {
+                console.log(e)
                 if(e.data.atg_id == that.defaultData.id) {
                     that.data = e.data
                     let status = e.data.status ? 'Online' : 'Offline';

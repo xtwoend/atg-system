@@ -639,10 +639,10 @@ jquery@^3.7.1:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
   integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
-laravel-echo@^1.17.1:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/laravel-echo/-/laravel-echo-1.17.1.tgz#74c73d53f1fbee7eaf8c3c9949148603a850b153"
-  integrity sha512-ORWc4vDfnBj/Oe5ThZ5kYyGItRjLDqAQUyhD/7UhehUOqc+s5x9HEBjtMVludNMP6VuXw6t7Uxt8bp63kaTofg==
+laravel-echo@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/laravel-echo/-/laravel-echo-2.2.4.tgz#6d91ff9d6cacd42466ff7c21ede332cff595f3b8"
+  integrity sha512-CagAL5AlG6W0WhClcIYBSU6fm5Bt7msgJ3fqu+Y6VQ+UxLPWhSllWkWoV7mteKhvV660T5cwUeFNUc1zTVwDBg==
 
 laravel-vite-plugin@^1.0:
   version "1.1.1"
@@ -715,10 +715,10 @@ proxy-from-env@^1.1.0:
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
-pusher-js@^8.4.0-rc2:
-  version "8.4.0-rc2"
-  resolved "https://registry.yarnpkg.com/pusher-js/-/pusher-js-8.4.0-rc2.tgz#44f33bfe5bc89f741d82601125d6095bde28261b"
-  integrity sha512-d87GjOEEl9QgO5BWmViSqW0LOzPvybvX6WA9zLUstNdB57jVJuR27zHkRnrav2a3+zAMlHbP2Og8wug+rG8T+g==
+pusher-js@^8.4.0:
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/pusher-js/-/pusher-js-8.4.0.tgz#eb28dca291f553ad9622f4e421d14c23abbaf40f"
+  integrity sha512-wp3HqIIUc1GRyu1XrP6m2dgyE9MoCsXVsWNlohj0rjSkLf+a0jLvEyVubdg58oMk7bhjBWnFClgp8jfAa6Ak4Q==
   dependencies:
     tweetnacl "^1.0.3"
 
