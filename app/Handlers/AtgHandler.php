@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Redis;
 final class AtgHandler extends Handler implements HandlerInterface
 {
     protected $conversi = 1;
-    protected $levels = [0, 1000, 2000, 3000, 4000, 5000, 6000, 8000, 10000, 12000];
+    protected $levels = [0, 1000, 2000, 3000, 4000, 6000, 8000, 10000];
     protected $fCorection = 0.0000348;
     protected $tempCorrection = 38;
 
