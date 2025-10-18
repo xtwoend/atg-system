@@ -140,7 +140,7 @@ final class AtgHandler extends Handler implements HandlerInterface
         foreach($this->levels as $lv) {
             if($height >= $lv) {
                 $tx = "temp_{$sensor}";
-                $temperatures[] = $data[$tx] ?? 0;
+                $temperatures[] = $data[$tx] ?? 30;
                 $sensor++;
             }
         }
