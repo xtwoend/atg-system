@@ -59,7 +59,7 @@ export default {
     },
     async mounted () {
         await this.init()
-        this.initListen();
+        await this.initListen();
     },
     created() {
         window.addEventListener("resize", this.resize);
@@ -101,7 +101,7 @@ export default {
                 this.scadavis.setValue(tag, val);
             }
         },
-        initListen() {
+        async initListen() {
             let that = this
             window.Echo.channel(this.channel).listen(this.listen, (e) => {
                 console.log(e)
@@ -112,6 +112,9 @@ export default {
                     Object.keys(that.data).forEach(key => that.setValue(key, that.data[key]));
                 }
             });
+        },
+        async load() {
+            // 
         }
     }
 }
