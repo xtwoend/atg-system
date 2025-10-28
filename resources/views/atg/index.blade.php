@@ -142,7 +142,7 @@
             </div>
             <div class="col-md-6 col-lg-4">
                 <svg-embeded 
-                    path="/svg/storage_single.svg" 
+                    path="{{ $atg->svg_path ?? '/svg/storage_single.svg' }}" 
                     channel="atgs.calculate"
                     listen="AtgCalculateEvent"
                     :height="450" 
