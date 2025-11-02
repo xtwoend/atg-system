@@ -74,7 +74,7 @@
                                     </div>
                                     <div class="col">
                                         <div class="font-weight-bold">
-                                            <span id="level">0</span> mm
+                                            <span id="level">0</span> mm / <span id="level-percentage">0</span> %
                                         </div>
                                         <div class="text-secondary">
                                             Current Level
@@ -173,6 +173,7 @@
                 document.getElementById("cpo").innerHTML = data.cpo.toLocaleString()
                 document.getElementById("cpo_ton").innerHTML = data.cpo_ton.toLocaleString()
                 document.getElementById("level").innerHTML = parseFloat(data.level).toLocaleString()
+                document.getElementById("level-percentage").innerHTML = parseFloat(data.percentage).toLocaleString()
                 document.getElementById("temp").innerHTML = data.temp_avg.toLocaleString()
                 document.getElementById("density").innerHTML = data.density
             }

@@ -50,7 +50,7 @@
                             <a href="{{ route('atg.report', $atg->id) }}" class="dropdown-item">
                                 Report
                             </a>
-                            @if(env('DISCHARGE_ENABLE', true))
+                            @if(env('DISCHARGE_ENABLE', false))
                             <a href="{{ route('atg.discharge', $atg->id) }}" class="dropdown-item">
                                 Discharge
                             </a>
