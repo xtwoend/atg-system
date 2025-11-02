@@ -47,7 +47,7 @@
                                     listen="AtgCalculateEvent"
                                     name="{{ $tank->name }}"
                                     :id="'tank-' + {{ $tank->id }}"
-                                    :height="450" 
+                                    :height="630" 
                                     :ratio="450"
                                     :default-data="{{ json_encode($tank) }}" 
                                 />
